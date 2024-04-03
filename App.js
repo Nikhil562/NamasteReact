@@ -1,6 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+
+
 const heading1 = React.createElement("h1", {
         id: "title", 
-}, "Heading 1");
+}, "Heading 1 from parcel");
 
  const heading2 = React.createElement("h2", {
         id: "title",
@@ -19,3 +23,4 @@ const heading1 = React.createElement("h1", {
 const root = ReactDOM.createRoot(document.getElementById('root')); // Fixed typo
 
  root.render(container);
+

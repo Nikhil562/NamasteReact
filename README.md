@@ -22,6 +22,40 @@ also fetching data from other's servers wont be a optimized approach
 so npm i react ( will install react in dependencies not in dev-dependencies)
 npm i react-dom
 
+to run :- npx parcel index.html
+
+parcel :-
+HMR-> hot module Reloading ( parser does this and keeps a track of every file if we change )
+how it knows the changes -> through file watcher Algo written in c++ all this happens in parcel-cached folder
+
+dist folder:- when we do npx parcel index.html dist creates a faster dev version of our project servers it on the server (locahost://1234)
+if I want to make a production built :- using build command :- npx parcel build index.html 
+
+while doing this ( both for production and non-production)  it does a lot of things all happens inside dist folder 
+//parcel:-
+//  HMR
+// File Watcher Algo
+// BUNDLING
+// minify
+// Cleaning our code
+// Dev And Prodcution Build
+// Super Fast Build Algo
+// Image Optimization
+// Caching while development 
+// File Compression
+// Compatble with older versions of  browsers
+// gives functionality to build App on https 
+// (HTTP) on dev-> run npx parcel index.html--https your app will run on https
+// Always put parcel-cache in .gitignore 
+//In package.lock.json :- pacel has its dependecies , its dependencies has its corresponding sobordinate dependencies , (Transitive dependencies)
+//its a Zero config(install and give run and it will do things itself)
+
+
+
+
+
+
+
 
 
 
