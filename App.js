@@ -4,11 +4,18 @@ import ReactDOM from 'react-dom/client'
 
 const heading1 = React.createElement("h1", {
         id: "title", 
+        key:"h1",
 }, "Heading 1 from parcel");
 
  const heading2 = React.createElement("h2", {
         id: "title",
+        key:"h2"
 }, "Heading 2");
+
+
+// React.createEl gives a obj which is converted into html and puts into DOM by react 
+
+
 
  const container = React.createElement('div', 
        {

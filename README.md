@@ -51,11 +51,9 @@ while doing this ( both for production and non-production)  it does a lot of thi
 //its a Zero config(install and give run and it will do things itself)
 
 
+/*4th April */ 
 
+npx-> npm run 
 
-
-
-
-
-
+npm run start/ npm start 
 
