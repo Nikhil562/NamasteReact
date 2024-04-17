@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ![alt text](image.png)
 
 <!-- Since JSX can only have 1 root we use react.fragment ( Its a component imported by react  we can use it like React.Fragment)  its like an empty tag  instead this we cann write <></> -->
 =======
+=======
+>>>>>>> 3d2371539013f82a2a4d7a2c4ecfcb9167acc312
 # Welcome to React Learnings :-
 - yarn is another alternative of npm
 - npm install -D parcel ( As we dont want parcel on production , we want parcel on developer machine , -D=> Dev Dependency , implies we are installing parcel as a dev dependency ) or --save-dev
@@ -78,4 +81,3 @@ also fetching data from other's servers wont be a optimized approach
    - Links
    - Copyrights
 ![alt text](image.png)
->>>>>>> 3d2371539013f82a2a4d7a2c4ecfcb9167acc312
