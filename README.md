@@ -32,7 +32,7 @@ also fetching data from other's servers wont be a optimized approach
 - while doing this ( both for production and non-production)  it does a lot of things all happens inside dist folder 
 - parcel:-
   -  HMR :-
-     - Hot Module Replacement (HMR) is a feature that enables real-time updates to modules in a running application without requiring a full page reload.
+    - Hot Module Replacement (HMR) is a feature that enables real-time updates to modules in a running application without requiring a full page reload.
   -  File Watcher Algo
   -  BUNDLING
   -  minify
