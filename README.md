@@ -1,4 +1,4 @@
-#Welcome to React Learnings :-
+# Welcome to React Learnings :-
 - yarn is another alternative of npm
 - npm install -D parcel ( As we dont want parcel on production , we want parcel on developer machine , -D=> Dev Dependency , implies we are installing parcel as a dev dependency ) or --save-dev
 in package.json:-
