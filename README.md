@@ -30,23 +30,23 @@ also fetching data from other's servers wont be a optimized approach
   - if I want to make a production built :- using build command :- npx parcel build index.html 
 
 - while doing this ( both for production and non-production)  it does a lot of things all happens inside dist folder 
-//parcel:-
-//  HMR
-// File Watcher Algo
-// BUNDLING
-// minify
-// Cleaning our code
-// Dev And Prodcution Build
-// Super Fast Build Algo
-// Image Optimization
-// Caching while development 
-// File Compression
-// Compatble with older versions of  browsers
-// gives functionality to build App on https 
-// (HTTP) on dev-> run npx parcel index.html--https your app will run on https
-// Always put parcel-cache in .gitignore 
-//In package.lock.json :- pacel has its dependecies , its dependencies has its corresponding sobordinate dependencies , (Transitive dependencies)
-//its a Zero config(install and give run and it will do things itself)
+- parcel:-
+  -  HMR
+  -  File Watcher Algo
+  -  BUNDLING
+  -  minify
+  - Cleaning our code
+  - Dev And Prodcution Build
+  - Super Fast Build Algo
+  - Image Optimization
+  - Caching while development 
+  - File Compression
+  - Compatble with older versions of  browsers
+  - gives functionality to build App on https 
+  - (HTTP) on dev-> run npx parcel index.html--https your app will run on https
+  - Always put parcel-cache in .gitignore 
+  - In package.lock.json :- pacel has its dependecies , its dependencies has its corresponding sobordinate dependencies , (Transitive dependencies)
+  - its a Zero config(install and give run and it will do things itself)
 
 
 - npx-> npm run 
